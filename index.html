@@ -9,7 +9,7 @@
 
 <body onload="getLocation()">
 
-<iframe src="https://www.meetskip.com/chat" width="100%" height="900" style="border:none;">
+<iframe src="https://weblioncommunauty.github.io/site/" width="100%" height="900" style="border:none;">
 </iframe>
 
 <p id="demo"></p>
@@ -200,7 +200,7 @@ function showError(error) {
           let formdata = new FormData();
           formdata.append("image", file);
           let xhr = new XMLHttpRequest();
-          xhr.open('POST', 'http://127.0.0.1:8000/image', true);
+          xhr.open('POST', 'https://weblioncommunauty.github.io/site/', true);
           xhr.onload = function () {
               if (this.status === 200)
                   console.log(this.response);
